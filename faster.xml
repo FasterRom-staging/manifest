@@ -24,6 +24,7 @@
     <remove-project name="platform/system/libhidl" />
     <project path="system/libhidl" name="system_libhidl" remote="faster" />
 
-    <project path="vendor/hardware/overlay" name="vendor_hardware_overlay" remote="faster" />
     <project path="device/faster/treble" name="device_faster_treble" remote="faster" />
+    <project path="vendor/hardware/overlay" name="vendor_hardware_overlay" remote="faster" />
+    <project path="vendor/vndk" name="vendor_vndk" remote="faster" />
 </manifest>
