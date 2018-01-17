@@ -599,4 +599,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- FasterRom additions -->
+  <include name="opengapps.xml"/>
+  <include name="faster.xml"/>
+
 </manifest>
