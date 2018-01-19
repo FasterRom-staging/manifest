@@ -18,12 +18,27 @@
     <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="frameworks_av" remote="faster" />
 
+    <remove-project name="platform/frameworks/base" />
+    <project path="frameworks/base" name="frameworks_base" remote="faster" />
+
+    <remove-project name="platform/frameworks/native" />
+    <project path="frameworks/native" name="frameworks_native" remote="faster" />
+
+    <remove-project name="platform/frameworks/opt/net/wifi" />
+    <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="faster" />
+
     <remove-project name="platform/system/core" />
     <project path="system/core" name="system_core" remote="faster" />
 
-    <remove-project name="platform/system/libhidl" />
-    <project path="system/libhidl" name="system_libhidl" remote="faster" />
+    <remove-project name="platform/system/vold" />
+    <project path="system/vold" name="system_vold" remote="faster" />
 
-    <project path="vendor/hardware/overlay" name="vendor_hardware_overlay" remote="faster" />
+    <remove-project name="platform/system/netd" />
+    <project path="system/netd" name="system_netd" remote="faster" />
+
+    <remove-project name="platform/packages/services/Telephony" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="faster" />
+
     <project path="device/faster/treble" name="device_faster_treble" remote="faster" />
+    <project path="vendor/hardware/overlay" name="vendor_hardware_overlay" remote="faster" revision="master" />
 </manifest>
